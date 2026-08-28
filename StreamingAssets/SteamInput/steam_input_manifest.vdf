@@ -1,0 +1,45 @@
+"Action Manifest"
+{
+	"major_revision"		"1"
+	"minor_revision"		"0"
+	"major_revision_affects_xinput"		"0"
+	"major_revision_affects_mousekb"		"0"
+
+	"configurations"
+	{
+	}
+
+	"actions"
+	{
+		"Gameplay"
+		{
+			"title"		"#Set_Gameplay"
+			"StickPadGyro"
+			{
+				"Cursor"		{ "title" "#Action_Cursor" "input_mode" "absolute_mouse" }
+			}
+			"Button"
+			{
+				"Primary"		"#Action_Primary"
+				"ZoomIn"		"#Action_ZoomIn"
+				"ZoomOut"		"#Action_ZoomOut"
+				"Menu"			"#Action_Menu"
+				"Cancel"		"#Action_Cancel"
+			}
+		}
+	}
+
+	"localization"
+	{
+		"english"
+		{
+			"Set_Gameplay"		"Gameplay"
+			"Action_Cursor"		"Move cursor"
+			"Action_Primary"	"Click / Select"
+			"Action_ZoomIn"		"Zoom in"
+			"Action_ZoomOut"	"Zoom out"
+			"Action_Menu"		"Menu"
+			"Action_Cancel"		"Back"
+		}
+	}
+}
